@@ -1,0 +1,5 @@
+You can either run the MessageConsumer class with the number of random messages you would like generated or run the JUnit tests.
+
+more parameterizations could be added ( instead of randomizations )
+
+Have fun!
