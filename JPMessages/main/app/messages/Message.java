@@ -1,4 +1,4 @@
-package jp.messages;
+package app.messages;
 
 /**
  * main interface for messages

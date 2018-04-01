@@ -1,4 +1,4 @@
-package jp.objects;
+package app.objects;
 
 /**
  * this class defines a correction for correction messages 

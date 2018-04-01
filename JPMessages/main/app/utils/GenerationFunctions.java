@@ -1,15 +1,15 @@
-package jp.utils;
+package app.utils;
 
 import java.util.Random;
 
-import jp.messages.BasicSaleMessage;
-import jp.messages.CorrectionSaleMessage;
-import jp.messages.Message;
-import jp.messages.MultipleSaleMessage;
-import jp.objects.OperationType;
-import jp.objects.Product;
-import jp.objects.Sale;
-import jp.objects.SaleCorrection;
+import app.messages.BasicSaleMessage;
+import app.messages.CorrectionSaleMessage;
+import app.messages.Message;
+import app.messages.MultipleSaleMessage;
+import app.objects.OperationType;
+import app.objects.Product;
+import app.objects.Sale;
+import app.objects.SaleCorrection;
 
 /**
  * class for message and object generations

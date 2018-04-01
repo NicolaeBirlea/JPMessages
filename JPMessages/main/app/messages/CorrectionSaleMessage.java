@@ -1,10 +1,10 @@
-package jp.messages;
+package app.messages;
 
 
-import jp.objects.Operation;
-import jp.objects.Sale;
-import jp.objects.SaleCorrection;
-import jp.utils.Memory;
+import app.objects.Operation;
+import app.objects.Sale;
+import app.objects.SaleCorrection;
+import app.utils.Memory;
 
 /**
  * correction sale message

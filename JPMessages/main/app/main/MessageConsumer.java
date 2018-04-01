@@ -1,12 +1,12 @@
 /**
  * 
  */
-package jp.program;
+package app.main;
 
 
-import jp.messages.Message;
-import jp.utils.GenerationFunctions;
-import jp.utils.Memory;
+import app.messages.Message;
+import app.utils.GenerationFunctions;
+import app.utils.Memory;
 
 /**
  * test class, generates and prints messages
@@ -20,7 +20,13 @@ public class MessageConsumer {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		for (int index = 0; index < 10 ; index++) {
+		
+		Integer numberOfMessages =  10; // default value
+		if (args.length > 0 && args[0].matches("\\d+")) {
+			numberOfMessages = Integer.valueOf(args[0]);
+		}
+		
+		for (int index = 0; index < numberOfMessages ; index++) {
 			Message message = GenerationFunctions.generateMessage();
 			message.handleMessage();
 			System.out.println(message);

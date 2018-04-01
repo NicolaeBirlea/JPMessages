@@ -1,7 +1,7 @@
-package jp.messages;
+package app.messages;
 
-import jp.objects.Sale;
-import jp.utils.Memory;
+import app.objects.Sale;
+import app.utils.Memory;
 
 /**
  * simple message, has only a sale

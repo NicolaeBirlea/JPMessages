@@ -1,4 +1,4 @@
-package jp.objects;
+package app.objects;
 
 import java.util.function.BiFunction;
 

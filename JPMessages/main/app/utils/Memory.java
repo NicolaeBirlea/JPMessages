@@ -1,9 +1,9 @@
-package jp.utils;
+package app.utils;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import jp.objects.Sale;
+import app.objects.Sale;
 
 /**
  * database simulator, in memory object

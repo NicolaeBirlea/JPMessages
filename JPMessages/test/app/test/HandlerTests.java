@@ -1,17 +1,17 @@
-package jp.test;
+package app.test;
 
 import static org.junit.Assert.*;
 
 import org.junit.Before;
-import jp.utils.GenerationFunctions;
-import jp.utils.Memory;
-
 import org.junit.Test;
-import jp.messages.BasicSaleMessage;
-import jp.messages.CorrectionSaleMessage;
-import jp.messages.MultipleSaleMessage;
-import jp.objects.Operation;
-import jp.objects.Sale;
+
+import app.messages.BasicSaleMessage;
+import app.messages.CorrectionSaleMessage;
+import app.messages.MultipleSaleMessage;
+import app.objects.Operation;
+import app.objects.Sale;
+import app.utils.GenerationFunctions;
+import app.utils.Memory;
 
 /**
  * test class for the handler functions
